@@ -1,0 +1,16 @@
+[package]
+name = "app"
+version = "0.0.0"
+edition = "2018"
+authors = []
+license = ""
+description = ""
+repository = ""
+documentation = ""
+readme = ""
+exclude = []
+publish = false
+
+[dependencies]
+windows = "0.20"
+bindings = { path = "bindings" }
