@@ -1,0 +1,10 @@
+namespace component
+{
+    [default_interface]
+    runtimeclass Class
+    {
+        Class();
+        Windows.Foundation.IAsyncAction OpenFileDialogAsync(Int32 hwnd);
+        Int32 MyProperty;
+    }
+}
